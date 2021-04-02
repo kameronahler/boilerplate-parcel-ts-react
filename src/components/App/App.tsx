@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function App() {
+export const App = () => {
   return (
     <>
       <h1>Parcel + React</h1>

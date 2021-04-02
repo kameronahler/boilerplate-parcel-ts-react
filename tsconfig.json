@@ -1,10 +1,15 @@
 {
   "compilerOptions": {
-    "jsx": "react",
+    "allowSyntheticDefaultImports": true,
     "baseUrl": "./src",
+    "esModuleInterop": true,
+    "jsx": "react",
+    "moduleResolution": "node",
     "paths": {
       "~/*": ["./*"]
-    }
+    },
+    "strict": false,
+    "target": "es2017"
   },
   "include": ["src/**/*"]
 }
